@@ -1,4 +1,3 @@
-
 # Projeto Full Stack - Papelaria
 
 Este projeto consiste em um Sistema para registrar todo o inventário de uma Papelaria chamada Papel - Tudo.
@@ -99,6 +98,17 @@ Testes: Insomnia
 ## Autores
 
 * [@octokatherine](https://www.github.com/octokatherine)
+
+## Print das Telas
+
+# tela 1 - Cadastro
+
+![tela 1 - cadastro](https://github.com/Carla-coder/Papel_Tudo/assets/128012862/ae5d5e5d-4b4a-4c8f-8425-1097a769343b)
+
+# Tela 2 
+
+![tela 2 - bd](https://github.com/Carla-coder/Papel_Tudo/assets/128012862/879597dc-c3c2-4500-ab57-85d68d139c54)
+
 ## Instituição de Ensino
 
 Escola Senai unidade Jaguariúna - 
