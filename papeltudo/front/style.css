@@ -1,0 +1,194 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Courier Prime", monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    width: 100vw;
+    background-color: #f1f1f1;
+}
+
+header h1 {
+    background: #f38f00;
+    background: linear-gradient(to right, #f6d365, #fda085);
+    box-shadow: inset -70px 0 0 #f7dac2, inset 70px 0 0 #fcebad;
+    box-shadow: inset 70px 0 0 #fcebad, inset -70px 0 0 #f7dac2;
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #f38f00;
+    border-radius: 10px;
+    width: 100vw;
+    height: 190px;
+}
+
+form {
+    display: flex;
+    background: linear-gradient(to right, #f6d365, #fda085);
+    box-shadow: inset -70px 0 0 #f7dac2, inset 70px 0 0 #fcebad;
+    box-shadow: inset 70px 0 0 #fcebad, inset -70px 0 0 #f7dac2;
+}
+
+.form1 {
+    background-color: #ffffff;
+    border: 2px solid #f38f00;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    display: grid;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    outline: none;
+}
+
+input[type="number"] {
+    border-radius: 10px;
+    border: 2px solid #f38f00;
+    padding: 5px;
+    outline: none;
+}
+
+input[type="text"] {
+    font-family: "Courier Prime", monospace;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #f38f00;
+    padding: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: #f38f00;
+    border: none;
+    border-radius: 10px;
+    transition: .3s ease all;
+    margin-top: 6px;
+    margin: 6px;
+}
+
+button[type="submit"]:hover {
+    background-color: #fa9b00;
+}
+
+main .container2 {
+    width: 100vw;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 2px solid #f38f00;
+    border-radius: 10px;
+    background: linear-gradient(to right, #f6d365, #fda085);
+    box-shadow: inset -70px 0 0 #f7dac2, inset 70px 0 0 #fcebad;
+    box-shadow: inset 70px 0 0 #fcebad, inset -70px 0 0 #f7dac2;
+}
+
+table th,
+table td {
+    border: none;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table th {
+    background-color: #f9f9f9;
+}
+
+.mensagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    color: #000;
+    font-family: "Courier Prime", monospace;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: .2rem;
+    background: #f38f00;
+    background: linear-gradient(to right, #f6d365, #fda085);
+    box-shadow: inset -70px 0 0 #f7dac2, inset 70px 0 0 #fcebad;
+    box-shadow: inset 70px 0 0 #fcebad, inset -70px 0 0 #f7dac2;
+    transform: skewX(-1deg);
+    border: 2px solid #f38f00;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.mensagem .Mensagem {
+    border-radius: 10px;
+    border: 2px solid #f38f00;
+    line-height:25px;
+}
+ 
+.mensagem p span {
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0 40px;
+    font-weight: bold;
+    line-height:25px;
+    transition: all .3s ease;
+    border: 2px solid #f38f00;
+    background-color: #f9f9f9;
+    color: #7f0000;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+}
+
+.btn-edit {
+    border-radius: 10px;
+    background: #f38f00;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    color: #f9f9f9;
+}
+
+.btn-delete {
+    border-radius: 10px;
+    background: #f38f00;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    color: #f9f9f9;
+}
