@@ -101,7 +101,7 @@ Testes: Insomnia
 
 ## Print das Telas
 
-# tela 1 - Cadastro
+# Tela 1 - Cadastro
 
 ![tela 1 - cadastro](https://github.com/Carla-coder/Papel_Tudo/assets/128012862/ae5d5e5d-4b4a-4c8f-8425-1097a769343b)
 
